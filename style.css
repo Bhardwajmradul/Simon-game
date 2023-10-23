@@ -1,0 +1,100 @@
+body{
+  text-align: center;
+  background-color: bisque;
+}
+.rltog{
+  display:none;
+}
+.rules{
+  display:none;
+}
+.rule{
+  text-align:left;
+  margin-left:350px;
+}
+.stm{
+  display:inline;
+  margin-right: 10px;
+}
+.stmbtn{
+  border:solid rgb(219, 219, 219) ;
+  border-radius:5px;
+  box-shadow: 2px 2px 5px black;
+}
+.stmbtn:active{
+  border:inset rgb(219, 219, 219) ;
+  box-shadow: 1px 1px 5px black
+}
+.colors{
+  display:grid;
+  margin-top:50px;
+  justify-content:center;
+  grid-template-rows:200px 200px ;
+  grid-template-columns:200px 200px ;
+  grid-gap:20px 20px;
+}
+.red{
+  background-color: red;
+  border-radius:20px;
+  height:200px;
+  width:200px;
+  box-shadow:5px 5px 10px black ;
+}
+.yellow{
+  border-radius:20px;
+  height:200px;
+  width:200px;
+  box-shadow:5px 5px 10px black ;
+  background-color:orange
+}
+.green{
+  border-radius:20px;
+  height:200px;
+  width:200px;
+  box-shadow:5px 5px 10px black ;
+  background-color: green;
+}
+.blue{
+  border-radius:20px;
+  height:200px;
+  width:200px;
+  box-shadow:5px 5px 10px black ;
+  background-color: blue;
+}
+.color:hover{
+  box-shadow:10px 10px 20px black ;
+}
+.color:active{
+  box-shadow:5px 5px 10px black ;
+}
+.flash{
+  background-color: white;
+}
+@keyframes red{
+  from{
+    background-color:red;}
+  to{
+    background-color:white;
+  }
+}
+@keyframes blue{
+  from{
+    background-color:blue;}
+  to{
+    background-color:white;
+  }
+}
+@keyframes green{
+  from{
+    background-color:green;}
+  to{
+    background-color:white;
+  }
+}
+@keyframes orange{
+  from{
+    background-color:orange;}
+  to{
+    background-color:white;
+  }
+}
